@@ -1,0 +1,4 @@
+# dependencies
+/node_modules
+/old
+goldilocks.code-workspace

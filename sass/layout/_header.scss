@@ -1,0 +1,26 @@
+@use "../abstract" as *;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1.6em 4em;
+  &__logo {
+    width: 15rem;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  &__link {
+    margin-right: 3em;
+    text-decoration: none;
+    color: $black;
+  }
+}

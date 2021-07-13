@@ -1,0 +1,30 @@
+@use '../abstract' as *;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: $white;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.hero {
+  width: 100%;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
+}

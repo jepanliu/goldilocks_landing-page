@@ -1,0 +1,29 @@
+@use "../abstract" as *;
+
+.features {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+
+  &__feature {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5em 2em;
+    & + .features__feature {
+      margin-left: 1em;
+    }
+  }
+}
+
+.feature {
+  &__img {
+    height: 12rem;
+    margin-bottom: 1.5em;
+  }
+
+  &__description {
+    text-align: center;
+  }
+}

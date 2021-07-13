@@ -1,0 +1,20 @@
+@use "../abstract" as *;
+
+.hero--img__img {
+  animation: float 3s linear 1s infinite alternate;
+  opacity: 70%;
+  transform: rotate(20deg);
+}
+
+.float-shadow {
+  animation: float-shadow 3s linear 1s infinite alternate;
+  filter: blur(1rem);
+  border-radius: 50%;
+  width: 10rem;
+  height: 4rem;
+  background-color: $black;
+  position: absolute;
+  bottom: -4rem;
+  left: 46%;
+  opacity: 30%;
+}
