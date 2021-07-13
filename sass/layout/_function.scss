@@ -1,0 +1,21 @@
+@use "../abstract" as *;
+
+.function {
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  &__img {
+    width: 40%;
+    margin-right: 2em;
+    &__image {
+      width: 100%;
+    }
+  }
+
+  &__description {
+    width: 50%;
+  }
+}

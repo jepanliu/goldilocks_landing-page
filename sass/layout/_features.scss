@@ -3,14 +3,17 @@
 .features {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
+  // padding: 3em 0;
 
   &__feature {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 5em 2em;
+    width: 25%;
+    margin: 2em auto;
+    min-width: 20rem;
     & + .features__feature {
       margin-left: 1em;
     }
