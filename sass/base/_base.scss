@@ -10,8 +10,26 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; //10px
   background-color: $white;
+  @include respond(desk-big) {
+    font-size: 75%;
+  }
+  @include respond(desk) {
+    font-size: 60%;
+  }
+  @include respond(tablet-land) {
+    font-size: 56.25%;
+  }
+  @include respond(tablet) {
+    font-size: 56.25%;
+  }
+  @include respond(phone-land) {
+    font-size: 50%;
+  }
+  @include respond(phone) {
+    font-size: 50%;
+  }
 }
 
 body {

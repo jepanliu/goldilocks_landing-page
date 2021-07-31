@@ -6,6 +6,12 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 1.6em 4em;
+  @include respond(phone) {
+    display: none;
+  }
+  @include respond(phone-land) {
+    display: none;
+  }
   &__logo {
     width: 15rem;
   }
