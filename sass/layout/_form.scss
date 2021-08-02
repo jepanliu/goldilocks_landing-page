@@ -2,7 +2,6 @@
 
 .form {
   background-color: $primary-light;
-  width: 100%;
   height: 30%;
   background-color: $primary-light;
 }
@@ -12,19 +11,18 @@ form {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 40%;
+  // width: 40%;
   text-align: center;
   padding: 2em;
 
   label {
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: block;
     margin-bottom: 1em;
   }
 
   .email {
-    margin-bottom: 1em;
-    width: 70%;
+    margin-top: 1em;
     height: 3em;
     padding: 0 1.3em;
     border-radius: 10vh;
@@ -33,6 +31,6 @@ form {
 
   .submit {
     border: none;
-    width: 30%;
+    width: 15rem;
   }
 }

@@ -2,9 +2,6 @@
   0% {
     transform: rotate(20deg) translateY(0);
   }
-  40% {
-    transform: rotate(20deg) translateY(-8px);
-  }
 
   100% {
     transform: rotate(20deg) translateY(-4px);
@@ -13,14 +10,12 @@
 
 @keyframes float-shadow {
   0% {
-    filter: blur(1rem);
-  }
-  40% {
-    filter: blur(1.3rem);
-    width: 11rem;
+    filter: blur(3px);
   }
 
   100% {
-    filter: blur(1.1rem);
+    filter: blur(6px);
+
+    transform: scale(1.1);
   }
 }
